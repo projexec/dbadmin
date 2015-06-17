@@ -14,4 +14,4 @@ script can be scheduled to run weekly from the OS.
 To schedule it, the db2 Administration command window should be called with the batch file location
 example: (`db2cwadmin E:\ProjExecScript\ReorgRunstats.bat`). It is mandatory to use the db2cwadmin command or run the batch from the DB2 Command Window Administrator. The folder where the scripts are placed need to be also set in this file in order for the logs to be saved in the same folder to set the script folder change the line (`set pefolder="E:\ProjExecScript\"`) 
 
-
+**Trilog**
