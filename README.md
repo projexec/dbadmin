@@ -17,7 +17,7 @@ The ProjExec Database name should be replaced in this file on the line (`set pei
 To schedule it, the db2 Administration command window should be called with the batch file location
 example: (`db2cwadmin E:\ProjExecScript\ReorgRunstats.bat`). It is mandatory to use the db2cwadmin command or run the batch from the DB2 Command Window Administrator. The folder where the scripts are placed need to be also set in this file in order for the logs to be saved in the same folder to set the script folder change the line (`set pefolder="E:\ProjExecScript\"`) 
 
-**for DB2 on Linux**
+**for DB2 on Linux** 
 
 The ProjExec Database name should be replaced in this file on the line (`peinput=PROJEXEC`) for example if your ProjExec Database name is PEDB, the line should be set to (`peinput=PEDB`). The path to the DB2 installation should also be specified by changing the line ('db2folder=/opt/ibm/db2/V9.7/bin/') to reflect the correct path to your DB2 installation binary files. Please note that it is best to schedule the script to run on a weekly basis from the OS using your preferred scheduling software. 
 

@@ -47,5 +47,5 @@ echo Running Stats...
 db2 -tvf runstats.out >%pefolder%Runstats.log
 
 :: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-:: Script created by Rachid Zock - Trilog Group Inc. 2015 - (13-Mar-2015)
+:: Script created by Rachid Zock - Trilog Group Inc. 2015 - (13-Mar-2015) 
 :: @@@@@@@@@@@@@@@@@@@@@@@@@ END OF SCRIPT @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
