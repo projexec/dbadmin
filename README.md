@@ -21,8 +21,9 @@ example: (`db2cwadmin E:\ProjExecScript\ReorgRunstats.bat`). It is mandatory to 
 
 The ProjExec Database name should be replaced in the script file on the line (`peinput=PROJEXEC`) for example if your ProjExec Database name is PEDB, the line should be set to (`peinput=PEDB`). The path to the DB2 installation should also be specified by changing the line ('db2folder=/opt/ibm/db2/V9.7/bin/') to reflect the correct path to your DB2 installation binary files. Please note that it is best to schedule the script to run on a weekly basis from the OS using your preferred scheduling software. 
 
-To schedule it, call the DB2ReorgRunstats.sh script file from the folder where you placed it example: (`/home/db2inst1/ProjExecScript/DB2ReorgRunstats.sh`). 
+To schedule it, call the DB2ReorgRunstats.sh script file from the folder where you placed it example: (`/home/db2inst1/ProjExecScript/DB2ReorgRunstats.sh`). Please note that the user that can run the script against the database should be a DB2 admin (for example: db2admin or db2inst1). You can test the user can run the script in console by issuing ('su db2inst1') then ('./DB2ReorgRunstats.sh')
 
 The folder where the scripts are placed also need to be set in the script file in order for the logs to be saved in the same folder. to set the script folder change the line (`pefolder=/home/db2inst1/ProjExecScript/`) 
+
 
 
